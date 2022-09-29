@@ -1,0 +1,36 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Space Lab project 1",
+    "description": "Studying patterns with Node & Express",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "Creational Patterns",
+      "description": "Creational design patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code."
+    }
+  ],
+  "schemes": ["http"],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths": {
+    "/factory-method": {
+      "get": {
+        "tags": ["Creational Patterns"],
+        "summary": "Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.",
+        "responses": {
+          "200": {
+            "description": "OKKKKKKKKKKKKKKKKKK!"
+          }
+        }
+      }
+    }
+  }
+}
