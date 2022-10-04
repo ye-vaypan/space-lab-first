@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./dist/server.js",
-    "stop": "pkill --signal SIGINT space-lab"
+    "stop": "pkill --signal SIGINT space-lab",
+    "sw-gen":"swagger-jsdoc -d ./swaggerDefinition.cjs ./routes/*.ts -o ./public/swagger.json"
   },
   "type": "module",
   "keywords": [],

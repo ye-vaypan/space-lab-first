@@ -15,7 +15,10 @@ const creationRouter = express.Router();
  *         type: string
  *       path:
  *         type: string
- *
+ */
+
+ /**
+ *  * @swagger
  * parameters:
  *   username:
  *     name: username
@@ -23,17 +26,27 @@ const creationRouter = express.Router();
  *     in: formData
  *     required: true
  *     type: string
- *
+ */
+
+ /**
+ * @swagger
  * tags:
  *   name: Users
  *   description: User management and login
  *
+ */
+
+ /**
+ * @swagger
  * tags:
  *   - name: Login
  *     description: Login
  *   - name: Accounts
  *     description: Accounts
- *
+ */
+
+ /**
+ *  * @swagger
  * /factory-method:
  *   post:
  *     description: Login to the application
